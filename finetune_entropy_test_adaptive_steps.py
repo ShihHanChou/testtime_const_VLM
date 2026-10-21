@@ -86,7 +86,7 @@ def main():
     parser = argparse.ArgumentParser(description='Training')
     parser.add_argument('-e', '--evaluate', default=False, dest='evaluate', action='store_true',
                         help='evaluate model on test set')
-    parser.add_argument('-m', '--model', type=str, help='model name (llava, llava_next, qwen-vl)')
+    parser.add_argument('-m', '--model', type=str, help='model name (llava, llava_next, qwen-vl, InternVL3, Idefics2)')
     parser.add_argument('-t', '--task', type=str, help='task (rephrase, restyle, masking)')
     parser.add_argument('-n', '--number', type=int, help='An integer number')
     parser.add_argument('-a', '--alpha', type=float, help='A float number')
